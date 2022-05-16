@@ -5,227 +5,179 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 119.28.54.201:45822, server: 119.28.54.201, port: 45822, type: ss, cipher: aes-128-gcm, password: "eeq413vbkk34r,,", udp: true}
-  - {name: CA_207, server: 198.57.27.225, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: CN_328, server: 14.29.124.168, port: 25294, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: CN_330, server: 14.29.124.168, port: 25219, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: Relay_🇺🇸US-🇺🇸US_3117, server: xr-3.herokuapp.com, port: 443, type: vmess, uuid: 17af76e1-a5d7-41ab-ae87-b48f185075d1, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /17af76e1-a5d7-41ab-ae87-b48f185075d1-vmess, ws-headers: {Host: xr-3.herokuapp.com}, udp: true}
   - {name: CN_331, server: 14.29.124.168, port: 25287, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: CN_335, server: 14.29.124.168, port: 25252, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: CN_338, server: 14.29.124.168, port: 25217, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: CN_339, server: 14.29.124.168, port: 25270, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
   - {name: CN_340, server: 14.29.124.168, port: 25271, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
   - {name: CN_342, server: 14.29.124.168, port: 25230, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
   - {name: CN_345, server: 14.29.124.168, port: 25256, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: CN_347, server: 14.29.124.168, port: 25220, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: US_1891, server: 167.172.135.97, port: 25453, type: ss, cipher: aes-256-cfb, password: a40ff797db5c4b948cfe5a5234a0e74c, udp: true}
-  - {name: ZZ_2464, server: 169.197.141.109, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: CA_295 |12.39Mb, server: 198.57.27.225, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: CA_305 |19.80Mb, server: 198.57.27.225, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: CA_315 |12.45Mb, server: 198.57.27.225, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: CA_316 |13.55Mb, server: 198.57.27.225, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: CA_327 | 6.67Mb, server: 198.57.27.225, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: CN_370 | 7.54Mb, server: 14.29.124.168, port: 25247, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: CN_372 | 1.94Mb, server: 14.29.124.168, port: 25266, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
   - {name: CN_380 | 6.42Mb, server: 14.29.124.168, port: 25259, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: GB_730 |53.76Mb, server: jgwld4.gaox.ml, port: 443, type: trojan, password: 58d32c66-43b1-4561-9951-d87c9123774e, sni: jgwld4.gaox.ml, skip-cert-verify: true, udp: true}
-  - {name: CA_61, server: 198.57.27.225, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: CA_158, server: 198.57.27.225, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
   - {name: CN_60 | 8.69Mb, server: 14.29.124.168, port: 25267, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: Relay_ |10.57Mb, server: qinton002.bmbai.buzz, port: 20602, type: vmess, uuid: ddd45ba3-80fb-38f9-8e8a-83d469e103fc, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: ssl.baiyu.click}, udp: true}
-  - {name: Relay_ |10.57Mb 2, server: qinton002.bmbai.buzz, port: 20603, type: vmess, uuid: ddd45ba3-80fb-38f9-8e8a-83d469e103fc, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: ssl.baiyu.click}, udp: true}
-  - {name: GB_183 |11.44Mb, server: 152.89.210.105, port: 9093, type: ss, cipher: aes-256-cfb, password: wfLC2y7rzZyCmuyt, udp: true}
-  - {name: Relay_🇺🇸US-🇺🇸US_366 | 3.74Mb, server: m.25az.top, port: 12033, type: vmess, uuid: a3b5dc2d-aef1-4e16-e9d7-cf96b6b6f93b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: ZZ_401 | 8.63Mb, server: 169.197.141.109, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 翻墙党fanqiangdang.com, server: fhcarm2.gaox.ml, port: 443, type: trojan, password: f39bd244-f5fe-415c-8b98-a1e5250bf178, sni: fhcarm2.gaox.ml, skip-cert-verify: true, udp: true}
-  - {name: 翻墙党fanqiangdang.com 2, server: douban.babazhuji.com, port: 443, type: vmess, uuid: 27848739-7e62-4138-9fd3-098a63964b6b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /movies, ws-headers: {Host: douban.babazhuji.com}, udp: true}
-  - {name: 翻墙党fanqiangdang.com 3, server: hkbn.okvpn.xyz, port: 12000, type: trojan, password: 0ce2ee7d-4889-4c64-8a75-4a86e6bbb1c4, sni: hkbn.okvpn.xyz, skip-cert-verify: true, udp: true}
-  - {name: 翻墙党fanqiangdang.com 4, server: ingress-i2.onebox6.org, port: 38104, type: vmess, uuid: 79386685-16da-327c-9e14-aa6d702d86bc, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: www.ivpnpro.net}, udp: true}
-  - {name: 翻墙党fanqiangdang.com 5, server: fhcarm1.gaox.ml, port: 443, type: trojan, password: 05742120-ce23-4cc8-88f5-6d221ce45bf4, sni: fhcarm1.gaox.ml, skip-cert-verify: true, udp: true}
-  - {name: 翻墙党fanqiangdang.com 6, server: 172.99.190.35, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: 翻墙党fanqiangdang.com 7, server: sg-cf.clown1i.cf, port: 443, type: vmess, uuid: ba2bd5e1-3cd6-4ac5-8234-803b2ca4d4f7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /vmess-ws, ws-headers: {Host: sg-cf.clown1i.cf}, udp: true}
-  - {name: 翻墙党fanqiangdang.com 8, server: sg-ovh.clown1i.cf, port: 443, type: vmess, uuid: 165af2cb-4bf4-472a-9565-68d55927668e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /vmess-ws, ws-headers: {Host: sg-ovh.clown1i.cf}, udp: true}
-  - {name: 翻墙党fanqiangdang.com 9, server: ru.node.qchwnd.moe, port: 44606, type: trojan, password: cfaa1d87-16c9-45f2-8ca1-833badb6b790, sni: ru.node.qchwnd.moe, skip-cert-verify: true, udp: true}
-  - {name: 翻墙党fanqiangdang.com 10, server: krr1.liuwei01.tk, port: 443, type: vmess, uuid: d965d82e-b325-44e8-a472-84721a3ab07c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /liuwei, ws-headers: {Host: krr1.liuwei01.tk}, udp: true}
-  - {name: 翻墙党fanqiangdang.com 11, server: 198.57.27.225, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: github.com/freefq - 北美地区  41, server: 134.195.196.205, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
-  - {name: github.com/freefq - 美国加利福尼亚州费利蒙Linode数据中心 46, server: 45.79.121.117, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: github.com/freefq - 美国CloudFlare节点 49, server: douban.babazhuji.com, port: 443, type: vmess, uuid: 27848739-7e62-4138-9fd3-098a63964b6b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /movies, ws-headers: {Host: douban.babazhuji.com}, udp: true}
   - {name: CN_307, server: 14.29.124.168, port: 25238, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
   - {name: CN_380, server: 14.29.124.168, port: 25296, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: CN_306, server: 14.29.124.168, port: 25235, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: github.com/freefq - 澳大利亚悉尼Oracle云计算数据中心 31, server: jgwxn2.gaox.ml, port: 443, type: trojan, password: c2b60d6a-a2f5-40ff-b7f9-f7658abcbf26, sni: jgwxn2.gaox.ml, skip-cert-verify: true, udp: true}
-  - {name: github.com/freefq - 美国CloudFlare节点 43, server: 172.67.140.112, port: 443, type: vmess, uuid: 4ac06183-feca-48f8-9f7d-3355bd950e2a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: yzjd01-ublubeu.koyeb.app}, udp: true}
-  - {name: github.com/freefq - 英国伦敦Oracle云计算数据中心 59, server: jgwld1.gaox.ml, port: 443, type: trojan, password: 02e653c9-7c93-46a9-999d-11834bd0c577, sni: jgwld1.gaox.ml, skip-cert-verify: true, udp: true}
+  - {name: CN_351, server: 14.29.124.168, port: 25283, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: 119.28.54.201:45822, server: 119.28.54.201, port: 45822, type: ss, cipher: aes-128-gcm, password: "eeq413vbkk34r,,", udp: true}
+  - {name: KR_848, server: 61.111.128.153, port: 8888, type: ss, cipher: rc4-md5, password: Xiongmao@^ios.ss, udp: true}
+  - {name: SG-138.2.85.75-61, server: free.spcloud.us, port: 21010, type: trojan, password: 118fc04e-fb8c-4154-9092-352cf1958fcd, sni: free.spcloud.us, skip-cert-verify: true, udp: true}
+  - {name: 美国 016, server: blogs.defun.us, port: 443, type: trojan, password: 0STIv0ePoRzjxFTV, sni: blogs.defun.us, skip-cert-verify: true, udp: true}
+  - {name: CN_346, server: 14.29.124.168, port: 25238, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: CN_347, server: 14.29.124.168, port: 25217, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: CN_348, server: 14.29.124.168, port: 25259, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: CN_349, server: 14.29.124.168, port: 25294, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: CN_350, server: 14.29.124.168, port: 25271, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: CN_351 2, server: 14.29.124.168, port: 25220, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: CN_352, server: 14.29.124.168, port: 25296, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: CN_353, server: 14.29.124.168, port: 25267, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: CN_354, server: 14.29.124.168, port: 25270, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: CN_355, server: 14.29.124.168, port: 25235, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: CN_356, server: 14.29.124.168, port: 25231, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: CN_358, server: 14.29.124.168, port: 25252, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: CN_359, server: 14.29.124.168, port: 25283, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: CN_360, server: 14.29.124.168, port: 25256, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: CN_361, server: 14.29.124.168, port: 25287, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: CN_367, server: 14.29.124.168, port: 25233, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: Relay_🇨🇳CN-🇨🇦CA_369, server: 183.240.124.200, port: 44822, type: ss, cipher: aes-128-gcm, password: fcae85b5-baf0-4c5a-ba80-5f513e70512a, udp: true}
+  - {name: CN_372, server: 14.29.124.168, port: 25219, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: Relay_🇨🇳CN-🇨🇳CN_405, server: s4.mine.com.cn, port: 3333, type: vmess, uuid: 5eea1f96-6e33-4409-b8b4-a8d3596ec991, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: JP_904, server: 172.104.98.41, port: 40056, type: vmess, uuid: 46867ec3-7a4d-43d9-cc5f-f14ceeb83a67, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: KR_907, server: 61.111.128.153, port: 8888, type: ss, cipher: rc4-md5, password: Xiongmao@^ios.ss, udp: true}
+  - {name: RO_1252, server: 185.126.116.125, port: 9043, type: ss, cipher: aes-256-cfb, password: HSZuyJQcWe8dxNdF, udp: true}
+  - {name: Relay_🇺🇸US-🇺🇸US_3146, server: node.774.gs, port: 8443, type: vmess, uuid: 28f6159e-ed46-4bfe-b893-0e7531c28143, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: node.774.gs}, udp: true}
+  - {name: Relay_🇺🇸US-🇺🇸US_3159, server: hk-c2.myuuusss.com, port: 80, type: vmess, uuid: cf998f5b-85d9-4798-871d-e0e7916fff04, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: hk-c2.myuuusss.com}, udp: true}
+  - {name: Relay_🇺🇸US-🇺🇸US_3183, server: sg-sr-116.mitoption.com, port: 443, type: trojan, password: e5d46365e25e31d94279c2bcf93390a2, sni: sg-sr-116.mitoption.com, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 119.28.54.201:45822
-      - CA_207
-      - CN_328
-      - CN_330
+      - Relay_🇺🇸US-🇺🇸US_3117
       - CN_331
-      - CN_335
-      - CN_338
-      - CN_339
       - CN_340
       - CN_342
       - CN_345
-      - CN_347
-      - US_1891
-      - ZZ_2464
-      - CA_295 |12.39Mb
-      - CA_305 |19.80Mb
-      - CA_315 |12.45Mb
-      - CA_316 |13.55Mb
-      - CA_327 | 6.67Mb
-      - CN_370 | 7.54Mb
-      - CN_372 | 1.94Mb
       - CN_380 | 6.42Mb
-      - GB_730 |53.76Mb
-      - CA_61
-      - CA_158
       - CN_60 | 8.69Mb
-      - Relay_ |10.57Mb
-      - Relay_ |10.57Mb 2
-      - GB_183 |11.44Mb
-      - Relay_🇺🇸US-🇺🇸US_366 | 3.74Mb
-      - ZZ_401 | 8.63Mb
-      - 翻墙党fanqiangdang.com
-      - 翻墙党fanqiangdang.com 2
-      - 翻墙党fanqiangdang.com 3
-      - 翻墙党fanqiangdang.com 4
-      - 翻墙党fanqiangdang.com 5
-      - 翻墙党fanqiangdang.com 6
-      - 翻墙党fanqiangdang.com 7
-      - 翻墙党fanqiangdang.com 8
-      - 翻墙党fanqiangdang.com 9
-      - 翻墙党fanqiangdang.com 10
-      - 翻墙党fanqiangdang.com 11
-      - github.com/freefq - 北美地区  41
-      - github.com/freefq - 美国加利福尼亚州费利蒙Linode数据中心 46
-      - github.com/freefq - 美国CloudFlare节点 49
       - CN_307
       - CN_380
-      - CN_306
-      - github.com/freefq - 澳大利亚悉尼Oracle云计算数据中心 31
-      - github.com/freefq - 美国CloudFlare节点 43
-      - github.com/freefq - 英国伦敦Oracle云计算数据中心 59
+      - CN_351
+      - 119.28.54.201:45822
+      - KR_848
+      - SG-138.2.85.75-61
+      - 美国 016
+      - CN_346
+      - CN_347
+      - CN_348
+      - CN_349
+      - CN_350
+      - CN_351 2
+      - CN_352
+      - CN_353
+      - CN_354
+      - CN_355
+      - CN_356
+      - CN_358
+      - CN_359
+      - CN_360
+      - CN_361
+      - CN_367
+      - Relay_🇨🇳CN-🇨🇦CA_369
+      - CN_372
+      - Relay_🇨🇳CN-🇨🇳CN_405
+      - JP_904
+      - KR_907
+      - RO_1252
+      - Relay_🇺🇸US-🇺🇸US_3146
+      - Relay_🇺🇸US-🇺🇸US_3159
+      - Relay_🇺🇸US-🇺🇸US_3183
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 119.28.54.201:45822
-      - CA_207
-      - CN_328
-      - CN_330
+      - Relay_🇺🇸US-🇺🇸US_3117
       - CN_331
-      - CN_335
-      - CN_338
-      - CN_339
       - CN_340
       - CN_342
       - CN_345
-      - CN_347
-      - US_1891
-      - ZZ_2464
-      - CA_295 |12.39Mb
-      - CA_305 |19.80Mb
-      - CA_315 |12.45Mb
-      - CA_316 |13.55Mb
-      - CA_327 | 6.67Mb
-      - CN_370 | 7.54Mb
-      - CN_372 | 1.94Mb
       - CN_380 | 6.42Mb
-      - GB_730 |53.76Mb
-      - CA_61
-      - CA_158
       - CN_60 | 8.69Mb
-      - Relay_ |10.57Mb
-      - Relay_ |10.57Mb 2
-      - GB_183 |11.44Mb
-      - Relay_🇺🇸US-🇺🇸US_366 | 3.74Mb
-      - ZZ_401 | 8.63Mb
-      - 翻墙党fanqiangdang.com
-      - 翻墙党fanqiangdang.com 2
-      - 翻墙党fanqiangdang.com 3
-      - 翻墙党fanqiangdang.com 4
-      - 翻墙党fanqiangdang.com 5
-      - 翻墙党fanqiangdang.com 6
-      - 翻墙党fanqiangdang.com 7
-      - 翻墙党fanqiangdang.com 8
-      - 翻墙党fanqiangdang.com 9
-      - 翻墙党fanqiangdang.com 10
-      - 翻墙党fanqiangdang.com 11
-      - github.com/freefq - 北美地区  41
-      - github.com/freefq - 美国加利福尼亚州费利蒙Linode数据中心 46
-      - github.com/freefq - 美国CloudFlare节点 49
       - CN_307
       - CN_380
-      - CN_306
-      - github.com/freefq - 澳大利亚悉尼Oracle云计算数据中心 31
-      - github.com/freefq - 美国CloudFlare节点 43
-      - github.com/freefq - 英国伦敦Oracle云计算数据中心 59
+      - CN_351
+      - 119.28.54.201:45822
+      - KR_848
+      - SG-138.2.85.75-61
+      - 美国 016
+      - CN_346
+      - CN_347
+      - CN_348
+      - CN_349
+      - CN_350
+      - CN_351 2
+      - CN_352
+      - CN_353
+      - CN_354
+      - CN_355
+      - CN_356
+      - CN_358
+      - CN_359
+      - CN_360
+      - CN_361
+      - CN_367
+      - Relay_🇨🇳CN-🇨🇦CA_369
+      - CN_372
+      - Relay_🇨🇳CN-🇨🇳CN_405
+      - JP_904
+      - KR_907
+      - RO_1252
+      - Relay_🇺🇸US-🇺🇸US_3146
+      - Relay_🇺🇸US-🇺🇸US_3159
+      - Relay_🇺🇸US-🇺🇸US_3183
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 119.28.54.201:45822
-      - CA_207
-      - CN_328
-      - CN_330
+      - Relay_🇺🇸US-🇺🇸US_3117
       - CN_331
-      - CN_335
-      - CN_338
-      - CN_339
       - CN_340
       - CN_342
       - CN_345
-      - CN_347
-      - US_1891
-      - ZZ_2464
-      - CA_295 |12.39Mb
-      - CA_305 |19.80Mb
-      - CA_315 |12.45Mb
-      - CA_316 |13.55Mb
-      - CA_327 | 6.67Mb
-      - CN_370 | 7.54Mb
-      - CN_372 | 1.94Mb
       - CN_380 | 6.42Mb
-      - GB_730 |53.76Mb
-      - CA_61
-      - CA_158
       - CN_60 | 8.69Mb
-      - Relay_ |10.57Mb
-      - Relay_ |10.57Mb 2
-      - GB_183 |11.44Mb
-      - Relay_🇺🇸US-🇺🇸US_366 | 3.74Mb
-      - ZZ_401 | 8.63Mb
-      - 翻墙党fanqiangdang.com
-      - 翻墙党fanqiangdang.com 2
-      - 翻墙党fanqiangdang.com 3
-      - 翻墙党fanqiangdang.com 4
-      - 翻墙党fanqiangdang.com 5
-      - 翻墙党fanqiangdang.com 6
-      - 翻墙党fanqiangdang.com 7
-      - 翻墙党fanqiangdang.com 8
-      - 翻墙党fanqiangdang.com 9
-      - 翻墙党fanqiangdang.com 10
-      - 翻墙党fanqiangdang.com 11
-      - github.com/freefq - 北美地区  41
-      - github.com/freefq - 美国加利福尼亚州费利蒙Linode数据中心 46
-      - github.com/freefq - 美国CloudFlare节点 49
       - CN_307
       - CN_380
-      - CN_306
-      - github.com/freefq - 澳大利亚悉尼Oracle云计算数据中心 31
-      - github.com/freefq - 美国CloudFlare节点 43
-      - github.com/freefq - 英国伦敦Oracle云计算数据中心 59
+      - CN_351
+      - 119.28.54.201:45822
+      - KR_848
+      - SG-138.2.85.75-61
+      - 美国 016
+      - CN_346
+      - CN_347
+      - CN_348
+      - CN_349
+      - CN_350
+      - CN_351 2
+      - CN_352
+      - CN_353
+      - CN_354
+      - CN_355
+      - CN_356
+      - CN_358
+      - CN_359
+      - CN_360
+      - CN_361
+      - CN_367
+      - Relay_🇨🇳CN-🇨🇦CA_369
+      - CN_372
+      - Relay_🇨🇳CN-🇨🇳CN_405
+      - JP_904
+      - KR_907
+      - RO_1252
+      - Relay_🇺🇸US-🇺🇸US_3146
+      - Relay_🇺🇸US-🇺🇸US_3159
+      - Relay_🇺🇸US-🇺🇸US_3183
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -244,57 +196,45 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 119.28.54.201:45822
-      - CA_207
-      - CN_328
-      - CN_330
+      - Relay_🇺🇸US-🇺🇸US_3117
       - CN_331
-      - CN_335
-      - CN_338
-      - CN_339
       - CN_340
       - CN_342
       - CN_345
-      - CN_347
-      - US_1891
-      - ZZ_2464
-      - CA_295 |12.39Mb
-      - CA_305 |19.80Mb
-      - CA_315 |12.45Mb
-      - CA_316 |13.55Mb
-      - CA_327 | 6.67Mb
-      - CN_370 | 7.54Mb
-      - CN_372 | 1.94Mb
       - CN_380 | 6.42Mb
-      - GB_730 |53.76Mb
-      - CA_61
-      - CA_158
       - CN_60 | 8.69Mb
-      - Relay_ |10.57Mb
-      - Relay_ |10.57Mb 2
-      - GB_183 |11.44Mb
-      - Relay_🇺🇸US-🇺🇸US_366 | 3.74Mb
-      - ZZ_401 | 8.63Mb
-      - 翻墙党fanqiangdang.com
-      - 翻墙党fanqiangdang.com 2
-      - 翻墙党fanqiangdang.com 3
-      - 翻墙党fanqiangdang.com 4
-      - 翻墙党fanqiangdang.com 5
-      - 翻墙党fanqiangdang.com 6
-      - 翻墙党fanqiangdang.com 7
-      - 翻墙党fanqiangdang.com 8
-      - 翻墙党fanqiangdang.com 9
-      - 翻墙党fanqiangdang.com 10
-      - 翻墙党fanqiangdang.com 11
-      - github.com/freefq - 北美地区  41
-      - github.com/freefq - 美国加利福尼亚州费利蒙Linode数据中心 46
-      - github.com/freefq - 美国CloudFlare节点 49
       - CN_307
       - CN_380
-      - CN_306
-      - github.com/freefq - 澳大利亚悉尼Oracle云计算数据中心 31
-      - github.com/freefq - 美国CloudFlare节点 43
-      - github.com/freefq - 英国伦敦Oracle云计算数据中心 59
+      - CN_351
+      - 119.28.54.201:45822
+      - KR_848
+      - SG-138.2.85.75-61
+      - 美国 016
+      - CN_346
+      - CN_347
+      - CN_348
+      - CN_349
+      - CN_350
+      - CN_351 2
+      - CN_352
+      - CN_353
+      - CN_354
+      - CN_355
+      - CN_356
+      - CN_358
+      - CN_359
+      - CN_360
+      - CN_361
+      - CN_367
+      - Relay_🇨🇳CN-🇨🇦CA_369
+      - CN_372
+      - Relay_🇨🇳CN-🇨🇳CN_405
+      - JP_904
+      - KR_907
+      - RO_1252
+      - Relay_🇺🇸US-🇺🇸US_3146
+      - Relay_🇺🇸US-🇺🇸US_3159
+      - Relay_🇺🇸US-🇺🇸US_3183
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -305,170 +245,134 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 119.28.54.201:45822
-      - CA_207
-      - CN_328
-      - CN_330
+      - Relay_🇺🇸US-🇺🇸US_3117
       - CN_331
-      - CN_335
-      - CN_338
-      - CN_339
       - CN_340
       - CN_342
       - CN_345
-      - CN_347
-      - US_1891
-      - ZZ_2464
-      - CA_295 |12.39Mb
-      - CA_305 |19.80Mb
-      - CA_315 |12.45Mb
-      - CA_316 |13.55Mb
-      - CA_327 | 6.67Mb
-      - CN_370 | 7.54Mb
-      - CN_372 | 1.94Mb
       - CN_380 | 6.42Mb
-      - GB_730 |53.76Mb
-      - CA_61
-      - CA_158
       - CN_60 | 8.69Mb
-      - Relay_ |10.57Mb
-      - Relay_ |10.57Mb 2
-      - GB_183 |11.44Mb
-      - Relay_🇺🇸US-🇺🇸US_366 | 3.74Mb
-      - ZZ_401 | 8.63Mb
-      - 翻墙党fanqiangdang.com
-      - 翻墙党fanqiangdang.com 2
-      - 翻墙党fanqiangdang.com 3
-      - 翻墙党fanqiangdang.com 4
-      - 翻墙党fanqiangdang.com 5
-      - 翻墙党fanqiangdang.com 6
-      - 翻墙党fanqiangdang.com 7
-      - 翻墙党fanqiangdang.com 8
-      - 翻墙党fanqiangdang.com 9
-      - 翻墙党fanqiangdang.com 10
-      - 翻墙党fanqiangdang.com 11
-      - github.com/freefq - 北美地区  41
-      - github.com/freefq - 美国加利福尼亚州费利蒙Linode数据中心 46
-      - github.com/freefq - 美国CloudFlare节点 49
       - CN_307
       - CN_380
-      - CN_306
-      - github.com/freefq - 澳大利亚悉尼Oracle云计算数据中心 31
-      - github.com/freefq - 美国CloudFlare节点 43
-      - github.com/freefq - 英国伦敦Oracle云计算数据中心 59
+      - CN_351
+      - 119.28.54.201:45822
+      - KR_848
+      - SG-138.2.85.75-61
+      - 美国 016
+      - CN_346
+      - CN_347
+      - CN_348
+      - CN_349
+      - CN_350
+      - CN_351 2
+      - CN_352
+      - CN_353
+      - CN_354
+      - CN_355
+      - CN_356
+      - CN_358
+      - CN_359
+      - CN_360
+      - CN_361
+      - CN_367
+      - Relay_🇨🇳CN-🇨🇦CA_369
+      - CN_372
+      - Relay_🇨🇳CN-🇨🇳CN_405
+      - JP_904
+      - KR_907
+      - RO_1252
+      - Relay_🇺🇸US-🇺🇸US_3146
+      - Relay_🇺🇸US-🇺🇸US_3159
+      - Relay_🇺🇸US-🇺🇸US_3183
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 119.28.54.201:45822
-      - CA_207
-      - CN_328
-      - CN_330
+      - Relay_🇺🇸US-🇺🇸US_3117
       - CN_331
-      - CN_335
-      - CN_338
-      - CN_339
       - CN_340
       - CN_342
       - CN_345
-      - CN_347
-      - US_1891
-      - ZZ_2464
-      - CA_295 |12.39Mb
-      - CA_305 |19.80Mb
-      - CA_315 |12.45Mb
-      - CA_316 |13.55Mb
-      - CA_327 | 6.67Mb
-      - CN_370 | 7.54Mb
-      - CN_372 | 1.94Mb
       - CN_380 | 6.42Mb
-      - GB_730 |53.76Mb
-      - CA_61
-      - CA_158
       - CN_60 | 8.69Mb
-      - Relay_ |10.57Mb
-      - Relay_ |10.57Mb 2
-      - GB_183 |11.44Mb
-      - Relay_🇺🇸US-🇺🇸US_366 | 3.74Mb
-      - ZZ_401 | 8.63Mb
-      - 翻墙党fanqiangdang.com
-      - 翻墙党fanqiangdang.com 2
-      - 翻墙党fanqiangdang.com 3
-      - 翻墙党fanqiangdang.com 4
-      - 翻墙党fanqiangdang.com 5
-      - 翻墙党fanqiangdang.com 6
-      - 翻墙党fanqiangdang.com 7
-      - 翻墙党fanqiangdang.com 8
-      - 翻墙党fanqiangdang.com 9
-      - 翻墙党fanqiangdang.com 10
-      - 翻墙党fanqiangdang.com 11
-      - github.com/freefq - 北美地区  41
-      - github.com/freefq - 美国加利福尼亚州费利蒙Linode数据中心 46
-      - github.com/freefq - 美国CloudFlare节点 49
       - CN_307
       - CN_380
-      - CN_306
-      - github.com/freefq - 澳大利亚悉尼Oracle云计算数据中心 31
-      - github.com/freefq - 美国CloudFlare节点 43
-      - github.com/freefq - 英国伦敦Oracle云计算数据中心 59
+      - CN_351
+      - 119.28.54.201:45822
+      - KR_848
+      - SG-138.2.85.75-61
+      - 美国 016
+      - CN_346
+      - CN_347
+      - CN_348
+      - CN_349
+      - CN_350
+      - CN_351 2
+      - CN_352
+      - CN_353
+      - CN_354
+      - CN_355
+      - CN_356
+      - CN_358
+      - CN_359
+      - CN_360
+      - CN_361
+      - CN_367
+      - Relay_🇨🇳CN-🇨🇦CA_369
+      - CN_372
+      - Relay_🇨🇳CN-🇨🇳CN_405
+      - JP_904
+      - KR_907
+      - RO_1252
+      - Relay_🇺🇸US-🇺🇸US_3146
+      - Relay_🇺🇸US-🇺🇸US_3159
+      - Relay_🇺🇸US-🇺🇸US_3183
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 119.28.54.201:45822
-      - CA_207
-      - CN_328
-      - CN_330
+      - Relay_🇺🇸US-🇺🇸US_3117
       - CN_331
-      - CN_335
-      - CN_338
-      - CN_339
       - CN_340
       - CN_342
       - CN_345
-      - CN_347
-      - US_1891
-      - ZZ_2464
-      - CA_295 |12.39Mb
-      - CA_305 |19.80Mb
-      - CA_315 |12.45Mb
-      - CA_316 |13.55Mb
-      - CA_327 | 6.67Mb
-      - CN_370 | 7.54Mb
-      - CN_372 | 1.94Mb
       - CN_380 | 6.42Mb
-      - GB_730 |53.76Mb
-      - CA_61
-      - CA_158
       - CN_60 | 8.69Mb
-      - Relay_ |10.57Mb
-      - Relay_ |10.57Mb 2
-      - GB_183 |11.44Mb
-      - Relay_🇺🇸US-🇺🇸US_366 | 3.74Mb
-      - ZZ_401 | 8.63Mb
-      - 翻墙党fanqiangdang.com
-      - 翻墙党fanqiangdang.com 2
-      - 翻墙党fanqiangdang.com 3
-      - 翻墙党fanqiangdang.com 4
-      - 翻墙党fanqiangdang.com 5
-      - 翻墙党fanqiangdang.com 6
-      - 翻墙党fanqiangdang.com 7
-      - 翻墙党fanqiangdang.com 8
-      - 翻墙党fanqiangdang.com 9
-      - 翻墙党fanqiangdang.com 10
-      - 翻墙党fanqiangdang.com 11
-      - github.com/freefq - 北美地区  41
-      - github.com/freefq - 美国加利福尼亚州费利蒙Linode数据中心 46
-      - github.com/freefq - 美国CloudFlare节点 49
       - CN_307
       - CN_380
-      - CN_306
-      - github.com/freefq - 澳大利亚悉尼Oracle云计算数据中心 31
-      - github.com/freefq - 美国CloudFlare节点 43
-      - github.com/freefq - 英国伦敦Oracle云计算数据中心 59
+      - CN_351
+      - 119.28.54.201:45822
+      - KR_848
+      - SG-138.2.85.75-61
+      - 美国 016
+      - CN_346
+      - CN_347
+      - CN_348
+      - CN_349
+      - CN_350
+      - CN_351 2
+      - CN_352
+      - CN_353
+      - CN_354
+      - CN_355
+      - CN_356
+      - CN_358
+      - CN_359
+      - CN_360
+      - CN_361
+      - CN_367
+      - Relay_🇨🇳CN-🇨🇦CA_369
+      - CN_372
+      - Relay_🇨🇳CN-🇨🇳CN_405
+      - JP_904
+      - KR_907
+      - RO_1252
+      - Relay_🇺🇸US-🇺🇸US_3146
+      - Relay_🇺🇸US-🇺🇸US_3159
+      - Relay_🇺🇸US-🇺🇸US_3183
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -484,57 +388,45 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 119.28.54.201:45822
-      - CA_207
-      - CN_328
-      - CN_330
+      - Relay_🇺🇸US-🇺🇸US_3117
       - CN_331
-      - CN_335
-      - CN_338
-      - CN_339
       - CN_340
       - CN_342
       - CN_345
-      - CN_347
-      - US_1891
-      - ZZ_2464
-      - CA_295 |12.39Mb
-      - CA_305 |19.80Mb
-      - CA_315 |12.45Mb
-      - CA_316 |13.55Mb
-      - CA_327 | 6.67Mb
-      - CN_370 | 7.54Mb
-      - CN_372 | 1.94Mb
       - CN_380 | 6.42Mb
-      - GB_730 |53.76Mb
-      - CA_61
-      - CA_158
       - CN_60 | 8.69Mb
-      - Relay_ |10.57Mb
-      - Relay_ |10.57Mb 2
-      - GB_183 |11.44Mb
-      - Relay_🇺🇸US-🇺🇸US_366 | 3.74Mb
-      - ZZ_401 | 8.63Mb
-      - 翻墙党fanqiangdang.com
-      - 翻墙党fanqiangdang.com 2
-      - 翻墙党fanqiangdang.com 3
-      - 翻墙党fanqiangdang.com 4
-      - 翻墙党fanqiangdang.com 5
-      - 翻墙党fanqiangdang.com 6
-      - 翻墙党fanqiangdang.com 7
-      - 翻墙党fanqiangdang.com 8
-      - 翻墙党fanqiangdang.com 9
-      - 翻墙党fanqiangdang.com 10
-      - 翻墙党fanqiangdang.com 11
-      - github.com/freefq - 北美地区  41
-      - github.com/freefq - 美国加利福尼亚州费利蒙Linode数据中心 46
-      - github.com/freefq - 美国CloudFlare节点 49
       - CN_307
       - CN_380
-      - CN_306
-      - github.com/freefq - 澳大利亚悉尼Oracle云计算数据中心 31
-      - github.com/freefq - 美国CloudFlare节点 43
-      - github.com/freefq - 英国伦敦Oracle云计算数据中心 59
+      - CN_351
+      - 119.28.54.201:45822
+      - KR_848
+      - SG-138.2.85.75-61
+      - 美国 016
+      - CN_346
+      - CN_347
+      - CN_348
+      - CN_349
+      - CN_350
+      - CN_351 2
+      - CN_352
+      - CN_353
+      - CN_354
+      - CN_355
+      - CN_356
+      - CN_358
+      - CN_359
+      - CN_360
+      - CN_361
+      - CN_367
+      - Relay_🇨🇳CN-🇨🇦CA_369
+      - CN_372
+      - Relay_🇨🇳CN-🇨🇳CN_405
+      - JP_904
+      - KR_907
+      - RO_1252
+      - Relay_🇺🇸US-🇺🇸US_3146
+      - Relay_🇺🇸US-🇺🇸US_3159
+      - Relay_🇺🇸US-🇺🇸US_3183
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
