@@ -1,29 +1,31 @@
 {
-      "inbounds":[
-        {
-          "port":10000,
-          "listen":"127.0.0.1", //此处记得写127.0.0.1，只监听本地
-          "protocol":"vmess",
-          "settings":{
-            "clients":[
-              {
-                "id":"888d163a-80d7-4495-b3d1-fcf61fc6b6ce", //此处的uuid建议自己到uuid generator网站在线生成
-                "alterId":64
-              }
-            ]
-          },
-          "streamSettings":{
-            "network":"ws",
-            "wsSettings":{
-            "path":"/ray"  //说明：此处请替换你想写的path分流路径，尽量复杂一些
-            }
+  "log": {
+    "loglevel": "warning"
+  },
+  "inbounds": [
+    {
+      "port": 10086,
+      "protocol": "vmess",
+      "settings": {
+        "clients": [
+          {
+            "id": "0877a8c3-5b3d-4510-bd57-37eb1d689616",
+            "alterId": 0
           }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "wsSettings": {
+          "path": "/e5ecf444-4f44-4d5d-ad03-e1c3471fea69"
         }
-      ],
-      "outbounds":[
-        {
-          "protocol":"freedom",
-          "settings":{}
-        }
-      ]
+      }
     }
+  ],
+  "outbounds": [
+    {
+      "protocol": "freedom",
+      "settings": {}
+    }
+  ]
+}
